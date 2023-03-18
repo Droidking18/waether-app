@@ -149,7 +149,7 @@ function Home(): JSX.Element {
               ListHeaderComponent={() => currentWeatherDetail(data)}
               data={foreCast?.forecast}
               renderItem={ForcastWeatherItem}
-              keyExtractor={item => item.day}
+              keyExtractor={item => item.date}
             />
           </View>
         </>
